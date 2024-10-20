@@ -58,9 +58,7 @@ public class Home extends JFrame {
             @Override
             public void actionPerformed(ActionEvent e) {
 
-                Account acc = new Account();
 
-                acc.openUsers();
             }
         });
 

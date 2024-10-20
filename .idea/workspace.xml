@@ -5,18 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="31a7cf0e-b7fb-4214-bb9c-115688be6567" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ATM.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Screen/Cadastro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Screen/Home.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/atm/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/atm/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/atm/Usuario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Screen/Cadastro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Screen/Cadastro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Screen/Home.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Screen/Home.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/atm/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/atm/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/atm/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/atm/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/atm/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/atm/Usuario.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

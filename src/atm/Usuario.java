@@ -1,6 +1,5 @@
 package atm;
-import java.util.ArrayList;
-import java.util.List;
+
 public class Usuario {
     private String nomeUser;
     private int PIN;
@@ -27,10 +26,6 @@ public class Usuario {
 
     public int getPIN() {
         return PIN;
-    }
-
-    public void validacao(){
-    System.out.println("nome: "+ nomeUser+" PIN: "+PIN);
     }
 
 

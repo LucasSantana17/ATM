@@ -15,6 +15,10 @@ public class Cadastro {
     JTextField input = new JTextField();
     JTextField PIN = new JTextField();
 
+    JLabel pinTxt = new JLabel();
+
+    JLabel nomeTxt = new JLabel();
+
     public Cadastro(){
 
         frame.setTitle("CADASTRO");
@@ -23,8 +27,8 @@ public class Cadastro {
         frame.setLocationRelativeTo(null);
         frame.setLayout(null);
 
-        //Adicionado componentes
         frame.add(painel);
+
 
         painel.setBounds(95,70,400,400);
         painel.setBackground( new Color(94, 92, 92));
@@ -33,25 +37,31 @@ public class Cadastro {
         painel.add(Enviar);
         painel.add(input);
         painel.add(PIN);
-
-        //Renderização
-
+        painel.add(pinTxt);
+        painel.add(nomeTxt);
         painel.setVisible(true);
+
+        nomeTxt.setText("Insira o Nome");
+        nomeTxt.setFont(new Font("Arial",Font.BOLD,20));
+        nomeTxt.setBounds(10,80,300,40);
+        nomeTxt.setVisible(true);
+
+        pinTxt.setText("Insira o PIN");
+        pinTxt.setFont(new Font("Arial",Font.BOLD,20));
+        pinTxt.setBounds(10,180,300,40);
+        pinTxt.setVisible(true);
 
         //Botão enviar
         Enviar.setText("Enviar");
-        Enviar.setBounds(10,250,100,30);
+        Enviar.setBounds(10,290,100,30);
         Enviar.setBackground(new Color(0x24657E));
 
         //Entrada
-        input.setBounds(10,90,300,40);
-        input.setText("Nome");
+        input.setBounds(10,120,300,40);
         input.setVisible(true);
         input.setBackground(new Color(0xFDFDFD));
 
-
-        PIN.setBounds(10,150,300,40);
-        PIN.setText("PIN");
+        PIN.setBounds(10,220,300,40);
         PIN.setVisible(true);
         PIN.setBackground(new Color(0xFDFDFD));
 
@@ -65,8 +75,10 @@ public class Cadastro {
                 int pin = Integer.parseInt(PIN.getText());
                 Usuario user = new Usuario(nome, pin);
 
-                new Account().addUser(user);
-                //user.validacao();
+                Account acc = new Account();
+                acc.add(user.getNomeUser(), user.getPIN());
+                acc.mostrarLista();
+
                 new Home();
 
 
